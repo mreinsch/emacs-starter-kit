@@ -150,9 +150,5 @@
             (unless (string-match "question" oddmuse-post)
               (setq oddmuse-post (concat "uihnscuskc=1;" oddmuse-post)))))
 
-; load color theme
-(require 'color-theme)
-(color-theme-tango)
-
 (provide 'starter-kit-misc)
 ;;; starter-kit-misc.el ends here
