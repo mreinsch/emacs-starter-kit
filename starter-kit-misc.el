@@ -10,6 +10,11 @@
 
 (add-hook 'before-make-frame-hook 'turn-off-tool-bar)
 
+;; Ask for confirmation before quitting Emacs
+(add-hook 'kill-emacs-query-functions
+          (lambda () (y-or-n-p "Do you really want to exit Emacs? "))
+          'append)
+
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
