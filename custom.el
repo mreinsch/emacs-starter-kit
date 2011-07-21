@@ -25,7 +25,6 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/rails-minor-mode"))
 (require 'rails)
 
-(require 'rvm)
 (rvm-use-default) ;; use rvm’s default ruby for the current Emacs session
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/scss-mode"))

@@ -1,9 +1,6 @@
 [submodule "rails-minor-mode"]
 	path = rails-minor-mode
 	url = git@github.com:mreinsch/emacs-rails.git
-[submodule "rvm"]
-	path = rvm
-	url = https://github.com/senny/rvm.el
 [submodule "scss-mode"]
 	path = scss-mode
 	url = git://github.com/antonj/scss-mode.git
