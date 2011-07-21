@@ -4,3 +4,6 @@
 [submodule "rvm"]
 	path = rvm
 	url = https://github.com/senny/rvm.el
+[submodule "scss-mode"]
+	path = scss-mode
+	url = git://github.com/antonj/scss-mode.git
