@@ -9,7 +9,8 @@
  '(save-place t nil (saveplace))
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
- '(truncate-lines t))
+ '(truncate-lines t)
+ '(scss-compile-at-save nil))
 
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
@@ -31,4 +32,3 @@
 (autoload 'scss-mode "scss-mode")
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 (add-to-list 'auto-mode-alist '("\\.scss\\.erb\\'" . scss-mode))
-
