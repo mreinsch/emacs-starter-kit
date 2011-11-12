@@ -4,3 +4,6 @@
 [submodule "scss-mode"]
 	path = scss-mode
 	url = git://github.com/antonj/scss-mode.git
+[submodule "coffee-mode"]
+	path = coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git

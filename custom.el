@@ -21,7 +21,7 @@
 
 ; load color theme
 (require 'color-theme)
-(color-theme-tango)
+; (color-theme-tango)
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/rails-minor-mode"))
 (require 'rails)
@@ -32,3 +32,6 @@
 (autoload 'scss-mode "scss-mode")
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 (add-to-list 'auto-mode-alist '("\\.scss\\.erb\\'" . scss-mode))
+
+(add-to-list 'load-path "~/.emacs.d/coffee-mode")
+(require 'coffee-mode)
