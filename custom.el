@@ -35,3 +35,5 @@
 
 (add-to-list 'load-path "~/.emacs.d/coffee-mode")
 (require 'coffee-mode)
+
+(rvm-autodetect-ruby)
